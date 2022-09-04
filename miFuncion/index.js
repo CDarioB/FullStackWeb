@@ -1,3 +1,3 @@
-let variable = ['Hola','Modulo'];
+let variable = ['Hola','Modulo !!!'];
 
 module.exports = variable;
