@@ -1,0 +1,16 @@
+{
+  "name": "clase-2-desafio",
+  "version": "1.0.0",
+  "description": "Clase 2 - Desafio - Utilización de modulos",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "zodiac-signs": "^1.1.0"
+  }
+}
