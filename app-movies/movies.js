@@ -1,0 +1,47 @@
+let movies = [{
+    id: 1,
+    title: "The fast & the furious",
+    rating: 7,
+    awards: null,
+    length: 120,
+    price: 5,
+    genre: 'Accion',
+},
+{
+    id: 2,
+    title: "A quiet place",
+    rating: 8,
+    awards: null,
+    length: 90,
+    price: 10,
+    genre: 'Suspenso',
+},
+{
+    id: 3,
+    title: 'Jumanji: The Next Level',
+    rating: 2,
+    awards: null,
+    length: 120,
+    price: 3,
+    genre: 'Aventuras',
+},
+{
+    id: 4,
+    title: "The Hangover",
+    rating: 9,
+    awards: "Golden Globe",
+    length: 100,
+    price: 8,
+    genre: 'Comedia',
+},
+{
+    id: 5,
+    title: 'La Guerra De Los Mundos',
+    rating: 7,
+    awards: "oscar",
+    length: 120,
+    price: 7,
+    genre: 'Ciencia Ficcion',
+}]
+
+module.exports = movies
