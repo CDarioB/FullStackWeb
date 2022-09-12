@@ -19,7 +19,8 @@ siguiente manera:
 <br><br>
 
 **NOTA:** Recordar utilizar ***process.argv[posición]*** para leer el contenido del comando en ejecución por consola con ***node***.
-
+- ***Ejemplo:*** *node app.js listar*
+            
             - comando:    node | app.js | listar
             - posicies:     0  |   1    |   2
             
