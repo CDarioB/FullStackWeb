@@ -44,7 +44,8 @@ Para este desafío armaremos una estructura de carpetas simple, pero respetando 
 |   app.js
 
 ```
-<br>
+
+---
 
 #### **Micro desafio 3**
 ***Ubicando recursos y sirviéndolos en nuestra aplicación.***
@@ -60,7 +61,6 @@ app.listen (3030, () => console.log ("Server started: http://localhost:3030/") )
 ```
 
 ---
-<br>
 
 #### **Micro desafio 4**
 ***¿Qué pasa con nuestros estilos y fotos?***
