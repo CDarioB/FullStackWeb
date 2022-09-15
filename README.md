@@ -6,31 +6,36 @@
 1. Creamos Nuestro proyecto (app.js ... etc)
 2. Inicializamos el proyecto con el comando (ejecutamos desde la consola)
 <br>
-        ```
-            npm init -y
-        ```
-<br>
-3. Instalamos el modulo Express al proyecto (ejecutando desde la consola)
-<br>
-        ```
-            npm install express --save
-        ```
-<br> <br>
+```
+
+npm init -y
+
+```
+
+3. Instalamos el modulo Express al proyecto (ejecutando desde la consola.
+
+```
+
+npm install express --save
+
+```
+
 **NOTA:** Para instalar el modulo de express, ***si o si*** debe estar inicializado el proyecto como se indica en el punto (2).
 
-
+<br>
 ### **Actividad -APP WEB DH Heroes** 
-
 #### **Micro desafio 1**
 
-- **Levantar un servidor web con Express que responda al puerto 3030.**
-<br>
+***Levantar un servidor web con Express que responda al puerto 3030.***
+
 ---
 
-
 ***Método listen, que se encargará de levantar el servidor. Recibe dos parámetros: el puerto y, opcionalmente, un callback que se ejecutará si el servidor termina de iniciar.***
+
 ```
+
     app.listen (3030, () => console.log ("server started: http://localhost:3030") ); 
+
 ```
 <br>
 
@@ -64,6 +69,7 @@ Para servir la no olvidar usar el metodo listen
 app.listen (3030, () => console.log ("Server started: http://localhost:3030/") ); 
 
 ```
+
 ---
 <br>
 
