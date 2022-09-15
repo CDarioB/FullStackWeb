@@ -8,10 +8,9 @@
     - npm init -y
 3. Instalamos el modulo Express al proyecto (ejecutando desde la consola.
     - npm install express --save
-<br>
 
 **NOTA:** Para instalar el modulo de express, ***si o si*** debe estar inicializado el proyecto como se indica en el punto (2).
-<br>
+<br><br>
 
 ### **Actividad -APP WEB DH Heroes** 
 #### **Micro desafio 1**
@@ -20,17 +19,15 @@
 
 ---
 
-***Método listen, que se encargará de levantar el servidor. Recibe dos parámetros: el puerto y, opcionalmente, un callback que se ejecutará si el servidor termina de iniciar.***
+*Método listen, que se encargará de levantar el servidor. Recibe dos parámetros: el puerto y, opcionalmente, un callback que se ejecutará si el servidor termina de iniciar.*
 
 ```
 
     app.listen (3030, () => console.log ("server started: http://localhost:3030") ); 
 
 ```
-<br>
 
 ---
-<br>
 
 #### **Micro desafio 2**
 ***Estructura de carpetas del proyecto.***
@@ -65,7 +62,7 @@ app.listen (3030, () => console.log ("Server started: http://localhost:3030/") )
 ---
 <br>
 
-#### **Micro desafio 3**
+#### **Micro desafio 4**
 ***¿Qué pasa con nuestros estilos y fotos?***
 
 La app ya funciona, pero sin los estilos CSS ni las fotos. A no preocuparse. ¡Vamos a solucionar esto!
