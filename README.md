@@ -5,24 +5,14 @@
 ### **Instalación de Express**
 1. Creamos Nuestro proyecto (app.js ... etc)
 2. Inicializamos el proyecto con el comando (ejecutamos desde la consola)
-<br>
-```
-
-npm init -y
-
-```
-
+    - npm init -y
 3. Instalamos el modulo Express al proyecto (ejecutando desde la consola.
-
-```
-
-npm install express --save
-
-```
+    - npm install express --save
+<br>
 
 **NOTA:** Para instalar el modulo de express, ***si o si*** debe estar inicializado el proyecto como se indica en el punto (2).
-
 <br>
+
 ### **Actividad -APP WEB DH Heroes** 
 #### **Micro desafio 1**
 
@@ -46,17 +36,17 @@ npm install express --save
 ***Estructura de carpetas del proyecto.***
 
 Para este desafío armaremos una estructura de carpetas simple, pero respetando los estándares que se utilizan para este tipo de sitios. Por eso, crearemos la siguiente estructura de archivos:
+
 ```
+
 |- DH-Heroes
 |   |- public 
 |      |- css
 |      |- img
 |   |- views
 |   app.js
+
 ```
-
-
----
 <br>
 
 #### **Micro desafio 3**
@@ -65,7 +55,9 @@ Para este desafío armaremos una estructura de carpetas simple, pero respetando 
 Ubicar imagenes, archivos html, etc en las carpeta del proyecto segun correspondan. Los archivos se obtiene del ***Material_para_ejercitacion.zip*** enviado por los profesores.
 
 Para servir la no olvidar usar el metodo listen
+
 ```
+
 app.listen (3030, () => console.log ("Server started: http://localhost:3030/") ); 
 
 ```
@@ -79,7 +71,10 @@ app.listen (3030, () => console.log ("Server started: http://localhost:3030/") )
 La app ya funciona, pero sin los estilos CSS ni las fotos. A no preocuparse. ¡Vamos a solucionar esto!
 
 Para indicar donde estan los archivos estaticos (css y las fotos), usar el siguiente metodo.
+
 ```
 app.use(express.static('public'));
+
 ```
 ---
+<br>
