@@ -49,7 +49,7 @@ Para este desafío armaremos una estructura de carpetas simple, pero respetando 
 |   |- views
 |   app.js
 ```
-<br>
+
 
 ---
 <br>
@@ -58,3 +58,22 @@ Para este desafío armaremos una estructura de carpetas simple, pero respetando 
 ***Ubicando recursos y sirviéndolos en nuestra aplicación.***
 
 Ubicar imagenes, archivos html, etc en las carpeta del proyecto segun correspondan. Los archivos se obtiene del ***Material_para_ejercitacion.zip*** enviado por los profesores.
+
+Para servir la no olvidar usar el metodo listen
+```
+app.listen (3030, () => console.log ("Server started: http://localhost:3030/") ); 
+
+```
+---
+<br>
+
+#### **Micro desafio 3**
+***¿Qué pasa con nuestros estilos y fotos?***
+
+La app ya funciona, pero sin los estilos CSS ni las fotos. A no preocuparse. ¡Vamos a solucionar esto!
+
+Para indicar donde estan los archivos estaticos (css y las fotos), usar el siguiente metodo.
+```
+app.use(express.static('public'));
+```
+---
