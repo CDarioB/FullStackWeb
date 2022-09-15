@@ -32,6 +32,29 @@
 ```
     app.listen (3030, () => console.log ("server started: http://localhost:3030") ); 
 ```
-<br> <br>
+<br>
 
 ---
+<br>
+
+#### **Micro desafio 2**
+***Estructura de carpetas del proyecto.***
+
+Para este desafío armaremos una estructura de carpetas simple, pero respetando los estándares que se utilizan para este tipo de sitios. Por eso, crearemos la siguiente estructura de archivos:
+```
+|- DH-Heroes
+|   |- public 
+|      |- css
+|      |- img
+|   |- views
+|   app.js
+```
+<br>
+
+---
+<br>
+
+#### **Micro desafio 3**
+***Ubicando recursos y sirviéndolos en nuestra aplicación.***
+
+Ubicar imagenes, archivos html, etc en las carpeta del proyecto segun correspondan. Los archivos se obtiene del ***Material_para_ejercitacion.zip*** enviado por los profesores.
