@@ -1,0 +1,53 @@
+* { /*Selector universal - aplica a todas las etiquetas*/
+    box-sizing: border-box; 
+}
+
+body {
+     font-family: sans-serif;
+}
+
+.contenedor01{
+    width: 90%;
+    padding: 20px;
+    background-color: salmon;
+}
+
+.contenedor02{
+    width: 50%;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+@media (min-width: 576px) { 
+    .contenedor01, /* Agrupo selectores*/
+    .contenedor02 {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor01 {
+        background-color: black;
+        color: white;
+    }
+
+    .contenedor02 {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedor01,
+    .contenedor02 {
+        border: solid 10px yellow;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor01,
+    .contenedor02 {
+        max-width: 1100px;
+    }
+}
