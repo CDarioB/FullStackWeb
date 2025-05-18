@@ -1,0 +1,40 @@
+[
+ {
+  "usr_id": 1,
+  "usr_first_name": "Marcos",
+  "usr_last_name": "Perez",
+  "usr_tel": "11 05 12545454",
+  "usr_email": "marcos.perez@gmail.com",
+  "usr_pass": "marcos#85"
+ },
+ {
+  "usr_id": 2
+ },
+ {
+  "usr_id": 3
+ },
+ {
+  "usr_id": 4,
+  "usr_firs_name": "Llllll",
+  "usr_last_name": "sssss",
+  "usr_tel": "5555555",
+  "usr_email": "carlosdario1@gmail.com",
+  "usr_pass": "sdasdasd"
+ },
+ {
+  "usr_id": 5,
+  "usr_firs_name": "Llllll",
+  "usr_last_name": "sssss",
+  "usr_tel": "5555555",
+  "usr_email": "carlosdario1@gmail.com",
+  "usr_pass": "asdasdasd"
+ },
+ {
+  "usr_id": 6,
+  "usr_firs_name": "tatiana",
+  "usr_last_name": "martínez",
+  "usr_tel": "6666666",
+  "usr_email": "tatiana@correo.com",
+  "usr_pass": "3124234324"
+ }
+]

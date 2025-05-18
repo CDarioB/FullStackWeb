@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('../partials/head.ejs') %>
+    <title>Indice de productos</title>
+</head>
+<%-include('../partials/header.ejs') %>
+<body>
+
+<br>
+<div class="TopContainer">
+<h3 class="title-index-prod-form">Bienvenido <%=userData.name%>, estás logueado como <%=userData.rol%> </h3>
+<br>
+<p class="des-index-prod-form">
+    ¿Qué deseas hacer?
+</p>
+</div>
+<br><br>
+
+
+<div class="formBody">
+    <div>
+    <a href="/products/create"><button  class="SubmitBotton"><span>Crea un producto</span></button></a>
+    </div>
+    <div>
+    <a href="/products/edit"><button class="SubmitBotton"><span>Modificá un producto</span></button></a>
+    </div>
+</div>
+
+
+<br><br>
+<%-include('../partials/footer.ejs') %>
+</body>
+</html>

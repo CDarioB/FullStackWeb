@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('../partials/head.ejs') %>
+    <title>Modificación de producto - Mini Cooper S</title>
+</head>
+<%-include('../partials/header.ejs') %>
+<body>
+<br>
+<div class="container-menu-objeto-modificado">
+<p>Bienvenido Alberto, estás logueado como ADMINISTRADOR</p>
+<br>
+<p>Estás modificando el objeto Mini Cooper S de color Blanco, ubicado en Buenos Aires de categoría Deportivo y modelo 2016 </p>
+<br>
+<p>¿Qué caracteristica del producto deseas modificar?</p>
+</div>
+<br>
+<div class="container-form-objeto-modificado">
+    <form  method="POST">
+        <label>Seleccione la caracteristica del Mini Cooper S que desee modificar: </label>
+        <select caracteristica="caracteristica">
+            <option value="nombre">Nombre del producto</option>
+            <option value="precio">Precio del producto en ARS</option>
+            <option value="modelo">Modelo del producto</option>
+            <option value="ubicacion">Ubicación del producto</option>
+            <option value="categoria">Categoría del producto</option>
+        </select>
+    </form>
+</div>
+<br>
+
+<div class="container-form-carac-modificar">
+    <p>Ha seleccionado la caracteristica Categoría del producto</p>
+    <br>
+    <form>
+        <label> ¿A qué categoría quiere que pertenezca el objeto Mini Cooper S?</label>
+        <select>
+            <option value="Camioneta">Camioneta</option>
+            <option value="Automovil">Automovil</option>
+            <option value="Deportivo">Deportivo</option>
+        </select>
+        <br> <br>
+        <a href="#"><button class="boton-enviar-producto"><span>Actualizar producto</span></button></a>
+        <a href="/productos/menuModificar"><button class="boton-enviar-modificar"><span>Regresar</span></button></a>
+    </form>
+</div>
+<br><br>
+
+<%-include('../partials/footer.ejs') %>
+</body>
+</html>

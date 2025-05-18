@@ -1,0 +1,93 @@
+<h2><%= product.references %></h2>
+<span class="linea"></span>
+<br>
+<section>
+    <div class="contenedor-caracteristicas">
+        <div class="contenedor-ubicacion">
+            <div>
+                <figure class="imagen-descripcion"><img width="50" height="50"
+                        src="https://automax.com.co/wp-content/uploads/2021/05/precio-iconUbicacion-azul.png"
+                        class="attachment-full size-full" alt="" loading="lazy"></figure>
+            </div>
+            <div>
+            </div>
+            <div class="elementor-image-box-content">
+                <h3 class="titulo-contenedor">Ubicación</h3>
+                <p class="descripcion-contenedor">
+                    <%=product.province.province%>
+                </p>
+            </div>
+        </div>
+        <div class="contenedor-kilometraje">
+            <div>
+                <figure class="imagen-descripcion"><img width="70" height="50"
+                        src="https://automax.com.co/wp-content/uploads/2021/01/kilometraje-iconAmp-azul.png"
+                        class="attachment-full size-full" alt="" loading="lazy"></figure>
+            </div>
+
+            <div class="elementor-image-box-content">
+                <h3 class="titulo-contenedor">Kilometraje</h3>
+                <p class="descripcion-contenedor"><%=product.mileage%></p>
+            </div>
+        </div>
+            
+        <div class="contenedor-modelo">
+            <div>
+                <figure class="imagen-descripcion"><img width="70" height="50"
+                        src="https://automax.com.co/wp-content/uploads/2021/01/auto-iconAmp-azul.png"
+                        class="attachment-full size-full" alt="" loading="lazy"></figure>
+            </div>
+            <div>
+                <div class="elementor-image-box-content">
+                    <h3 class="titulo-contenedor">Modelo</h3>
+                    <p class="descripcion-contenedor"><%=product.model%></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-categoria">
+            <div>
+                <figure class="imagen-descripcion"><img width="70" height="50" src="https://peugeot.automotora.com.co/crmautos/uploads/caracteristicas-usados/icono-sunroof.png"class="attachment-full size-full" alt="" loading="lazy"></figure>
+            </div>
+
+            <div>
+                <div class="elementor-image-box-content">
+                    <h3 class="titulo-contenedor">Categoría</h3>
+                    <p class="descripcion-contenedor"><%=product.category.type%></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-precio">
+            <div>
+                <figure class="imagen-descripcion"><a
+                        href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjIwNTEiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"><img
+                            width="50" height="50"
+                            src="https://automax.com.co/wp-content/uploads/2021/01/precio-iconAmpl-azul.png"
+                            class="attachment-full size-full" alt="" loading="lazy"></a></figure>
+            </div>
+            <div>
+                <div class="elementor-image-box-content">
+                    <h3 class="titulo-contenedor">Precio</h3>
+                    <p class="descripcion-contenedor">$<%=product.discount_price%></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="descripcion">
+    <section class="galeria">
+        <% for(var i=0; i < product.img.length; i++) { %>
+            <a href="#image<%=product.img[i]%>"><img src= "/img/products/<%= product.img[i] %>" alt=""></a>
+        <% } %>
+    </section>
+    
+    <% for(var i=0; i < product.img.length; i++) { %>
+        <article class="ligth-box" id="image<%=product.img[i]%>">
+            <a href="#image<%=product.img[i-1]%>" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src= "/img/products/<%=product.img[i]%>" alt="">
+            <a href="#image<%=product.img[i+1]%>" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="" class="close">X</a>
+        </article>
+    <% } %>
+    <a href="/" class="boton-inicio">Regresar</a>
+</section>
