@@ -1,0 +1,112 @@
+* {
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+/* ************************* */
+/* ***** header config ***** */
+header {
+   width: 90vw;
+   background-color: #EAC926;
+}
+
+.header-main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+}
+
+.header-main .logo img {
+   display: block;
+   width: 45vw;
+}
+
+.banner{
+   width: 90vw;
+   height: 20vh;
+   display: block;
+   border-bottom: 1px solid black;
+}
+/* *** end header config *** */
+/* ************************* */
+
+/* ****** main config ****** */
+.main-login-body, .main-register-body {
+   width: 90vw;
+   min-height: 50vh;
+   background-color: #ebebeb;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+}
+
+.form-main {
+   padding: 20px 15px;
+}
+
+.div-form {
+   margin-bottom: 10px;
+}
+
+.div-form label {
+   margin-bottom: 10px;
+   font-style: italic;
+   display: block;
+}
+
+.input-form {
+   width: 80%;
+   border: 1px solid #ccc;
+   height: 30px;
+   padding: 20px;
+}
+
+div select .select-form {
+   background-color: white;
+}
+
+
+.botton-form, .botton-login-form {
+   font-size: 20px;
+   padding: 8px;
+   margin-top: 15px;
+   background-color: #008CBA; color: white;
+   border: none;
+}
+
+.main-login-body .botton-form:hover {
+    background-color: #0022AA;
+}
+
+/* **** end main config **** */
+/* ************************* */
+
+/* ***** footer config ***** */
+footer {
+   width: 90vw;
+   height: 30px;
+   background-color: #ebebeb;
+   box-shadow: 0px 0px 0.5px rgb(100, 100, 100);
+   text-align: center;
+   padding: 0px;
+   padding: 0 50px 50px 50px;
+   margin: 0px;
+   /*margin: 20px 0px 0px 0px;*/
+}
+
+p.copyrigth{
+   font-size: 15px;
+   text-align: left;
+   padding-top: 20px;
+   padding-bottom: 0px;
+   margin: 0px;
+}
+/* *** end footer config *** */
+/* ************************* */
+ 

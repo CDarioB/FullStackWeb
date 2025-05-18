@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="/css/normalize.css" rel="stylesheet" />
+      <link href="/css/forms.css" rel="stylesheet" />
+      <title>Login de Usuario</title>
+   </head>
+
+   <body>
+      <header>
+         <section class="header-main">
+            <div class="logo">
+               <img src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" />
+            </div>
+         </section>
+         <div class="imgBanner">
+            <img class="banner" src="/images/img-home-banner.jpg" alt="Baner" />
+         </div>
+      </header>
+
+      <mian class="main-login-body">
+         <form action="/" method="get" class="form-main">
+
+            <div class="div-form">
+               <label for="username">Nombre de usuario</label>
+               <input type="text" name="username" id="username" placeholder="Username" class="input-form" required />
+            </div>
+
+            <div class="div-form">
+               <label for="password">Contraseña</label>
+               <input type="password" name="password" id="password" placeholder="********" class="input-form" required />
+            </div>
+
+            <div>
+               <input type="checkbox" name="recall" id="recall" />
+               <label for="recall">Recordarme</label>
+            </div>
+
+            <div>
+               <button type="submit" class="botton-form">Ingresar</button>
+            </div>
+         </form>
+      </main>
+
+      <footer>
+         <div class="footer-article-copyrigth">
+            <p class="copyrigth">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+         </div>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/normalize.css" rel="stylesheet">
+        <link href="/css/forms.css" rel="stylesheet">
+        <title>Creación de Cuenta</title>
+    </head>
+
+    <body>
+        <header>
+            <section class="header-main">
+            <div class="logo">
+                <img src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" />
+            </div>
+            </section>
+            <div class="imgBanner">
+            <img class="banner" src="/images/img-home-banner.jpg" alt="Baner" />
+            </div>
+        </header>
+
+        <main class="main-register-body">
+            <form action="/" method="get" class="form-main">
+
+                <div class="div-form">
+                    <label for="name">Nombre y Apellido</label>
+                    <input type="text" name="name" id="name" class="input-form" minlength="8" required>
+                </div>
+
+                <div class="div-form">
+                    <label for="username">Nombre de Usuario</label>
+                    <input type="text" name="username" id="username" class="input-form" required>
+                </div>
+
+                <div class="div-form">
+                    <label for="birthday">Fecha de Nacimiento</label>
+                    <input type="date" name="birthday" id="birthday" placeholder="AAAA-MM-DD" class="input-form" required>
+                </div>
+
+                <div class="div-form">
+                    <label for="address">Domicilio</label>
+                    <input type="text" name="address" id="address" class="input-form">
+                </div>
+
+                <div class="div-form">
+                    <label for="usertype">¿Qué buscas hacer en la aplicación?</label>
+                    <Select name="usertype" id="usertype" class="select-form" required>
+                        <option value="vender">Vender</option>
+                        <option value="comprar">Comprar</option>
+                    </Select>
+                </div>
+
+                <div>
+                    <label>Categorias de interés:</label>
+                    <br>
+                    <input type="checkbox" name="categories" value="Vida Sana" id="vida sana">
+                    <label for="vida sana">Vida Sana</label>
+                    <br>
+                    <input type="checkbox" name="categories" value="Hogar" id="hogar">
+                    <label for="hogar">Hogar</label>
+                    <br>
+                    <input type="checkbox" name="categories" value="Electro" id=electro>
+                    <label for="electro">Electrodomesticos</label>
+                    <br>
+                    <input type="checkbox" name="categories" value="Moda" id="moda">
+                    <label for="moda">Moda</label>
+                    <br>
+                    <input type="checkbox" name="categories" value="Juguetería" id="jugueteria">
+                    <label for="jugueteria">Juguetería</label>
+                </div>
+                
+                <br>
+                <div class="div-form">
+                    <label for="profilepic">Elige una foto de usuario (solo formato .jpg y .png)</label>
+                    <input type="file" accept=".jpg, .png">
+                </div>
+
+                <div class="div-form">
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password" class="input-form" required>
+                </div>
+                
+                <div class="div-form">
+                    <label for="conpassword">Confirma tu contraseña</label>
+                    <input type="password" name="conpassword" id="conpassword" class="input-form" required>
+                </div>
+
+                <div>
+                    <button type="submit" class="botton-form">Enviar</button>
+                    <button type="reset" class="botton-form">Borrar</button>
+                </div>
+            </form>
+        </main>
+    
+        <footer>
+            <div class="footer-article-copyrigth">
+                <p class="copyrigth">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+            </div>
+        </footer>
+    </body>
+</html>
